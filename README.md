@@ -2,7 +2,7 @@
 내일배움캠프 개인과제 todo앱 만들기
 
 <details>
-  <summary>심화주차 개인과제</summary>
+  <summary>숙련주차 개인과제</summary>
 
 - [ ]  **🆕 회원 가입 API**
     - **API 가 사용될 화면 보기**
@@ -92,5 +92,23 @@
     - 토큰을 검사한 후, 유효한 토큰이면서 해당 사용자가 작성한 댓글만 삭제 가능
     - 선택한 댓글의 DB 저장 유무를 확인하기
     - 선택한 댓글이 있다면 댓글 삭제하고 Client 로 성공했다는 메시지, 상태코드 반환하기
+  
+</details>
+
+<details>
+<summary>심화주차 개인과제</summary>
+
+- [ ]  **🆕 DTO, Entity Test 추가하기**
+    - `@Test` 를 사용해서 DTO 와 Entity Test 를 추가합니다.
+    - User, Todo, Comment, DTO 에 존재하는 메서드들에 대해서 테스트를 추가합니다.
+- [ ]  **🆕 Controller Test 추가하기**
+    - `@WebMvcTest` 를 사용하여 Controller Test 를 추가합니다.
+    - Todo, Comment Controller 에 대해서 테스트를 추가합니다.
+- [ ]  **🆕 Service Test 추가하기**
+    - `@ExtendWith` 를 사용하여 Service Test 를 추가합니다.
+    - User, UserDetails, Todo, Comment Service 에 대해서 테스트를 추가합니다.
+- [ ]  **🆕 Repository Test 추가하기**
+    - `@DataJpaTest` 를 사용하여 Repository Test 를 추가합니다.
+    - User, Todo, Comment Repository 에 대해서 테스트를 추가합니다.
   
 </details>
