@@ -22,7 +22,7 @@ public class TodoContoroller {
     private final TodoService todoService;
     @PostMapping
     public ResponseEntity<TodoResponseDto> postTodo(@RequestBody TodoResponseDto todoResponseDto, @AuthenticationPrincipal UserDetailsImpl userDetails) {
-        TodoResponseDto responseDTO = todoService.createPost(todoResponseDto, userDetails.getUser());
+        TodoResponseDto responseDTO = todoService.createTodo(todoResponseDto, userDetails.getUser());
 
         return ResponseEntity.status(201).body(responseDTO);
     }
